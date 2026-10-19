@@ -1,0 +1,89 @@
+baseURL: "https://thisplatypus.github.io/" 
+title: Chiara Camerota
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Publications
+          url: papers/
+          weight: 2
+        - name: Home
+          url: /
+          weight: 1
+
+
+
+params:
+    description: “I am a Postdoctoral researcher in Computer Science at Saint Louis University, St. Louis, MO (USA).”
+
+    # googleAnalyticsID: "G-XXXXX"
+    DateFormat: "January 2025"
+    defaultTheme: light
+    hideFooter: false
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    MainSections: ["courses","papers"]
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Chiara Camerota, Ph.D.
+          subtitle: I am a Postdoctoral Researcher in Computer Science at Saint Louis University, working with Prof. Flavio Esposito. My research explores machine learning for networked and cyber-physical systems, with an emphasis on security, communication-constrained environments, and efficient models for applications in IoT, medical imaging, and agriculture. I received my PhD in Information Engineering from the University of Florence in 2025. My work has been recognized with an NVIDIA Academic Grant (2026), an ICML Golden Review Award (2026), and a SIGCOMM Travel Grant (2025).
+          imageUrl: "picture.jpeg"
+          imageWidth: 160
+          imageHeight: 160
+          
+            
+
+            
+            
+
+    socialIcons:
+        - name: Email
+          url: mailto:camerota.chiara.c@gmail.com
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=CMPBKJkAAAAJ&hl=en
+        - name: GitHub
+          url: https://github.com/ThisPlatypus
+        - name: Linkedin
+          url: https://www.linkedin.com/in/chiara-camerota/
+
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Chiara Camerota"
+      icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2
